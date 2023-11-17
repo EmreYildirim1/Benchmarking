@@ -70,6 +70,12 @@ def main():
         "CPython RAM Usage": (cpython_ram_usage),
     }
 
+    with open('microbench_output.csv', 'a') as csv_file:
+        csv_file.write(f'Start Time PyPy: {pypyStartTime}, End Time PyPy: {pypyStartTime + pypy_time}, '
+                       f'Start Time CPython: {cpythonStartTime}, End Time CPython: {cpythonStartTime + cpython_time}, '
+                       f'PyPy: {pypy_elapsed_time} seconds, Python: {cpython_elapsed_time} seconds, '
+                       f'PyPy RAM Usage: {pypy_ram_usage} bytes, CPython RAM Usage: {cpython_ram_usage} bytes\n')
+
 
 if __name__ == "__main__":
     main()
