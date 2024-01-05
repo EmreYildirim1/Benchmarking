@@ -37,13 +37,13 @@ To effectively use this tool, the followings are required
 
 ### Options and Arguments 
 
-interpreter: Select the Python interpreter python3 or pypy.
-script_name: Specify the script name for benchmarking.
---runs: Set the number of benchmark iterations.
---display: Toggle the display of results on the console.
---csv: Enable saving results to a CSV file.
---concurrency: Activate multi-threaded and multi-process benchmarks.
---snakeviz: Integrate with snakeviz for profiling visualization.
+- interpreter: Select the Python interpreter python3 or pypy.
+- script_name: Specify the script name for benchmarking.
+- runs: Set the number of benchmark iterations.
+- display: Toggle the display of results on the console.
+- csv: Enable saving results to a CSV file.
+- concurrency: Activate multi-threaded and multi-process benchmarks.
+- snakeviz: Integrate with snakeviz for profiling visualization.
 (if snakeviz is used it will pop up the snakeviz window at the end of the script)
 
 
