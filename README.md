@@ -1,19 +1,11 @@
-Python Script Benchmarking Tool
+# Benchmarking Programming Languages
 
-Brief Description
+Benchmarking Programming Languages 
 
-A comprehensive Python tool designed for benchmarking script performance, utilizing a variety of metrics such as CPU usage, memory usage, and execution time. This tool is ideal for developers seeking to optimize their Python scripts efficiently.
+University of Manchester - 3rd Year Project - Benchmarking Programming Languages 
 
-Introduction
+## Brief Description 
 
-Purpose
-This benchmarking tool is crucial for identifying performance bottlenecks in Python scripts and understanding how changes in code impact overall performance.
+A Python tool which is comparing pypy and python and designed for benchmarking script performance, utilizing a variety of metrics such as CPU usage, memory usage, and execution time. This tool is ideal for developers seeking to optimize their Python scripts efficiently.
 
-Features
-Multi-threading and Multi-processing Support: Execute benchmarks in different concurrency models.
-Profiling: In-depth analysis of script performance.
-Resource Monitoring: Tracks CPU, memory, disk, and network usage.
-Prerequisites
-
-To use this tool, you need:
 
