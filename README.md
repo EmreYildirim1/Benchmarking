@@ -1,29 +1,19 @@
-#Benchmark 
+Python Script Benchmarking Tool
 
-Computer Science Project for Benchmarking Programming Languages.
+Brief Description
 
-#Project Setup
+A comprehensive Python tool designed for benchmarking script performance, utilizing a variety of metrics such as CPU usage, memory usage, and execution time. This tool is ideal for developers seeking to optimize their Python scripts efficiently.
 
-#Installing Pypy to the local mac machine 
+Introduction
 
-1) Need to install homebrew which is a package manager for macOS
-run the following command on the terminal 
+Purpose
+This benchmarking tool is crucial for identifying performance bottlenecks in Python scripts and understanding how changes in code impact overall performance.
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+Features
+Multi-threading and Multi-processing Support: Execute benchmarks in different concurrency models.
+Profiling: In-depth analysis of script performance.
+Resource Monitoring: Tracks CPU, memory, disk, and network usage.
+Prerequisites
 
-2) Install PyPy using Homebrew 
-run on terminal the following command 
-
-brew install pypy
-
-3)Check if it is installed 
-
-pypy --version
-
-#Installing PyPy to the local windows machine 
-
-1) Visit the PyPy download page at https://www.pypy.org/download.html
-
-2) Once it is complete, locate the installer file and double click on it to run the installer 
-
+To use this tool, you need:
 
