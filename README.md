@@ -33,12 +33,13 @@ To effectively use this tool, the followings are required
 
 ### Basic Usage 
 
-- Example: 'python comparison.py <interpreter> <script_name> --runs 1 --display --csv --concurrency --snakeviz' to perform a basic benchmark
+- Example: 'python comparison.py <interpreter> <script_name> --mode <run-type> --runs 1 --display --csv --concurrency --snakeviz' to perform a basic benchmark
 
 ### Options and Arguments 
 
 - interpreter: Select the Python interpreter python3 or pypy.
 - python script_name: Specify the script name for benchmarking.
+- mode: Simply type 'st' for single threaded run, 'mp' for multi process run, 'mt' for multi threaded run.(mode mt, mode mp, mode st)
 - runs: Set the number of benchmark iterations.
 - display: Toggle the display of results on the console.
 - csv: Enable saving results to a CSV file.
